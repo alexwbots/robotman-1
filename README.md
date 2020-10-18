@@ -1,4 +1,4 @@
-# robotman
+# Robotman
 Humanoid robot for security and guidance!
 
 Robotman is a robot that combines qualities for interaction with humans, and security patrolling services. The robot is able to perform security patrols during the night while functioning as a guide during the day. 
