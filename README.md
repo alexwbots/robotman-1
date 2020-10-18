@@ -7,7 +7,7 @@ Video of the simulation of the robot:
 
  * https://youtu.be/itvLRondz2I
  
-![Robotman_in_the_mall](robotman_mall.jpeg)
+<img src="https://robotman_mall.jpeg" width="100" height="200">
  
  # Tutorial
  
