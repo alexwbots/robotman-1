@@ -7,6 +7,8 @@ Video of the simulation of the robot:
 
  * https://youtu.be/itvLRondz2I
  
+![Screenshot](Robotman_in_the_mall.png)
+ 
  # Tutorial
  
  Download the robot in your ROS-workspace, I call my ros_ws. If you don't have one, you can created with the following steps:
