@@ -7,7 +7,7 @@ Video of the simulation of the robot:
 
  * https://youtu.be/itvLRondz2I
  
-![Screenshot](Robotman_in_the_mall.png)
+![Robotman_in_the_mall](robotman_mall.jpeg)
  
  # Tutorial
  
@@ -29,6 +29,8 @@ Video of the simulation of the robot:
  ```
  roslaunch robotman_gazebo spawn_robot.launch
  ```
+ 
+ ![Robotman_Gazebo](Robotman_gazebo.png)
  
  There is a node you could use to change the image show in the touch screen of the robot:
  
