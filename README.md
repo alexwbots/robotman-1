@@ -7,7 +7,7 @@ Video of the simulation of the robot:
 
  * https://youtu.be/itvLRondz2I
  
-<img src="https://github.com/robotswithros/robotman/robotman_mall.jpeg" width="200" height="400">
+<img src="https://github.com/robotswithros/robotman/blob/main/robotman_mall.jpeg" width="300" height="400">
  
  # Tutorial
  
