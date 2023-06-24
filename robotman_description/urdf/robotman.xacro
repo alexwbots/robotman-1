@@ -20,7 +20,7 @@
   </material>
 
   <!-- BGN - Robot description -->
-  <m_link_mesh name="base_link"
+  <xacro:m_link_mesh name="base_link"
               origin_rpy="1.5807 0 1.5807" origin_xyz="0 0 0.03"
               mass="5.0"
               ixx="1.3235" ixy="0" ixz="0"
@@ -30,13 +30,13 @@
               meshfile="package://robotman_description/meshes/base.stl"
               meshscale="0.001 0.001 0.001" />
               
-  <m_joint name="base_link__cuerpo" type="revolute"
+  <xacro:m_joint name="base_link__cuerpo" type="revolute"
            axis_xyz="0 1 0"
            origin_rpy="0 0 0" origin_xyz="0 0 0.1"
            parent="base_link" child="cuerpo"
            limit_e="10000" limit_l="-0.2618" limit_u="0.2618" limit_v="0.6" />
            
-  <m_link_mesh name="cuerpo"
+  <xacro:m_link_mesh name="cuerpo"
               origin_rpy="1.5807 0 1.5807" origin_xyz="0 0 0.60"
               mass="12.633"
               ixx="1.323" ixy="0" ixz="0"
@@ -46,13 +46,13 @@
               meshfile="package://robotman_description/meshes/cuerpo.stl"
               meshscale="0.001 0.001 0.001" />
   
-  <m_joint name="cuerpo__cabeza" type="revolute"
+  <xacro:m_joint name="cuerpo__cabeza" type="revolute"
            axis_xyz="0 1 0"
            origin_rpy="0 0 0" origin_xyz="0 0 1.25"
            parent="cuerpo" child="cabeza"
            limit_e="1000" limit_l="0" limit_u="0.5" limit_v="0.5" />
            
-  <m_link_mesh name="cabeza"
+  <xacro:m_link_mesh name="cabeza"
               origin_rpy="1.5807 0 1.5807" origin_xyz="0 0 0.0"
               mass="2.0"
               ixx="0.132" ixy="0" ixz="0"
@@ -62,13 +62,13 @@
               meshfile="package://robotman_description/meshes/cabeza.stl"
               meshscale="0.001 0.001 0.001" />
   
-  <m_joint name="cuerpo__brazo_derecho" type="revolute"
+  <xacro:m_joint name="cuerpo__brazo_derecho" type="revolute"
            axis_xyz="0 0 1"
            origin_rpy="-0.4 -0.1 0" origin_xyz="0.08 -0.55 0.06"
            parent="cuerpo" child="brazo_derecho"
            limit_e="1000" limit_l="-1.5807" limit_u="0" limit_v="0.5" />
            
-  <m_link_mesh name="brazo_derecho"
+  <xacro:m_link_mesh name="brazo_derecho"
               origin_rpy="1.5807 0 -1.5807" origin_xyz="0.0 0.0 0.35"
               mass="1.5"
               ixx="0.132" ixy="0" ixz="0"
@@ -78,13 +78,13 @@
               meshfile="package://robotman_description/meshes/brazo_derecho.stl"
               meshscale="0.001 0.001 0.001" />
               
-  <m_joint name="cuerpo__brazo_izquierdo" type="revolute"
+  <xacro:m_joint name="cuerpo__brazo_izquierdo" type="revolute"
            axis_xyz="0 0 1"
            origin_rpy="0.4 -0.1 0" origin_xyz="0.08 0.55 0.06"
            parent="cuerpo" child="brazo_izquierdo"
            limit_e="1000" limit_l="0" limit_u="1.5807" limit_v="0.5" />
            
-  <m_link_mesh name="brazo_izquierdo"
+  <xacro:m_link_mesh name="brazo_izquierdo"
               origin_rpy="1.5807 0 1.5807" origin_xyz="0.0 0.0 0.35"
               mass="1.5"
               ixx="0.132" ixy="0" ixz="0"
@@ -101,7 +101,7 @@
       <axis xyz="0 1 0"/>
   </joint>
 
-  <m_link_mesh name="ruedafrentederecha"
+  <xacro:m_link_mesh name="ruedafrentederecha"
               origin_rpy="1.5807 0 3.1416" origin_xyz="0 0 0"
               mass="2"
               ixx="0.132" ixy="0" ixz="0"
@@ -118,7 +118,7 @@
       <axis xyz="0 1 0"/>
   </joint>
 
-  <m_link_mesh name="ruedatraseraderecha"
+  <xacro:m_link_mesh name="ruedatraseraderecha"
               origin_rpy="1.5807 0 3.1416" origin_xyz="0 0 0"
               mass="2"
               ixx="0.132" ixy="0" ixz="0"
@@ -135,7 +135,7 @@
       <axis xyz="0 1 0"/>
   </joint>
 
-  <m_link_mesh name="ruedafrenteizquierda"
+  <xacro:m_link_mesh name="ruedafrenteizquierda"
               origin_rpy="1.5807 0 3.1416" origin_xyz="0 0 0"
               mass="2"
               ixx="0.132" ixy="0" ixz="0"
@@ -152,7 +152,7 @@
       <axis xyz="0 1 0"/>
   </joint>
 
-  <m_link_mesh name="ruedatraseraizquierda"
+  <xacro:m_link_mesh name="ruedatraseraizquierda"
               origin_rpy="1.5807 0 3.1416" origin_xyz="0 0 0"
               mass="2"
               ixx="0.132" ixy="0" ixz="0"

@@ -32,8 +32,8 @@
     <remap from="/joint_states" to="/robotman/joint_states" />
   </node>
 
-  <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find robotman_description)/rviz/robotman.rviz"/>
+  <!--node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find robotman_description)/rviz/robotman.rviz"/-->
 
-  <node name="rqt_publisher" pkg="rqt_publisher" type="rqt_publisher" />
+  <!--node name="rqt_publisher" pkg="rqt_publisher" type="rqt_publisher" /-->
 
 </launch>
